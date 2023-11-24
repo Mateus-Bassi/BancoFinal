@@ -10,7 +10,8 @@ namespace BancoAPI.Models;
     }
     public class Investimento
     {
-        public int InvestimentoID {get; set;}
+        [Key]
+        public int Id { get; set; }
 
         public TipoInvestimento Tipo {get; set;}
         public float ValorInicial {get; set;}
