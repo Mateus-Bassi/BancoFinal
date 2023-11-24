@@ -28,9 +28,9 @@ public class InvestimentoController : ControllerBase
 
     [HttpGet]
     [Route("buscar/{InvestimentoID}")]
-    public async Task<ActionResult<Investimento>> GetInvestimento(int investimentoID)
+    public async Task<ActionResult<Investimento>> GetInvestimento(int Id)
     {
-        var investimento = await _context.Investimento.FindAsync(investimentoID);
+        var investimento = await _context.Investimento.FindAsync(Id);
 
         if (investimento == null)
             return NotFound();
