@@ -20,7 +20,7 @@ namespace BancoAPI.Models;
         public DateTime DataResgate {get; set;}
         public double Taxa {get; set;}
 
-        public int ContaID {get; set;}
+        public int ContaId {get; set;}
 
         public virtual Conta Conta {get; set;}
 
