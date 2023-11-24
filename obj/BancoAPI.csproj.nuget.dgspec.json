@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Evandro\\BancoAPI.csproj": {}
+    "C:\\BancoFinal\\BancoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Evandro\\BancoAPI.csproj": {
+    "C:\\BancoFinal\\BancoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Evandro\\BancoAPI.csproj",
+        "projectUniqueName": "C:\\BancoFinal\\BancoAPI.csproj",
         "projectName": "BancoAPI",
-        "projectPath": "C:\\Evandro\\BancoAPI.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Evandro\\obj\\",
+        "projectPath": "C:\\BancoFinal\\BancoAPI.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\BancoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
