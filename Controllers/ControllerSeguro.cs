@@ -115,4 +115,18 @@ public class SeguroController : ControllerBase
         await _context.SaveChangesAsync();
         return Ok();
     }
+
+    [HttpPost]
+    [Route("criar")]
+    public async Task<ActionResult<Conta>> Criar(Seguro seguro)
+    {
+        // Criando uma conta e colocando no banco de dados
+        if(_context is null) return NotFound();
+        if(_context.Seguro is null) return NotFound();
+
+        _context.Seguro.Add(seguro);
+        await _context.SaveChangesAsync();
+
+        return Created("", seguro);
+    }
 }
